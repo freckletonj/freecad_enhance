@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "Chamfer 120 degree 1.25\"",
+  "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/chamfer.fcstd",
+  "parameter": {
+    "Chipload": "0.00 mm",
+    "CuttingEdgeAngle": "120.00 \u00b0",
+    "CuttingEdgeHeight": "9.17 mm",
+    "Diameter": "31.75 mm",
+    "Flutes": "0",
+    "Length": "10.00 mm",
+    "Material": "HSS",
+    "ShankDiameter": "12.70 mm",
+    "TipDiameter": "0.00 mm"
+  },
+  "attribute": {}
+}

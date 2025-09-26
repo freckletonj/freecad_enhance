@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "Bullnose 3/4\"",
+  "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/bullnose.fcstd",
+  "parameter": {
+    "Chipload": "0.00 mm",
+    "CuttingEdgeHeight": "15.88 mm",
+    "Diameter": "19.05 mm",
+    "FlatRadius": "6.35 mm",
+    "Flutes": "0",
+    "Length": "66.67 mm",
+    "Material": "HSS",
+    "ShankDiameter": "12.70 mm"
+  },
+  "attribute": {}
+}

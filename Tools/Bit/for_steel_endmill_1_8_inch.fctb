@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "FOR STEEL Endmill 1/8\"",
+  "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/endmill.fcstd",
+  "parameter": {
+    "Chipload": "0.00 mm",
+    "CuttingEdgeHeight": "9.52 mm",
+    "Diameter": "3.17 mm",
+    "Flutes": "4",
+    "Length": "9.52 mm",
+    "Material": "Carbide",
+    "ShankDiameter": "3.17 mm",
+    "SpindleDirection": "Forward"
+  },
+  "attribute": {}
+}

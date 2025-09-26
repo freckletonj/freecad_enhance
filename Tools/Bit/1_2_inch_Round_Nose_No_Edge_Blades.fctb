@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "1/2\" Round Nose No Side Blades",
+  "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/ballend.fcstd",
+  "parameter": {
+    "Chipload": "0.00 mm",
+    "CuttingEdgeHeight": "9.52 mm",
+    "Diameter": "12.70 mm",
+    "Flutes": "0",
+    "Length": "0.00 mm",
+    "Material": "HSS",
+    "ShankDiameter": "6.35 mm"
+  },
+  "attribute": {}
+}

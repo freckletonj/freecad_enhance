@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "120 Deg. V-bit Profile No Edge",
+  "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/v-bit.fcstd",
+  "parameter": {
+    "Chipload": "0.00 mm",
+    "CuttingEdgeAngle": "120.00 \u00b0",
+    "CuttingEdgeHeight": "0.00 mm",
+    "Diameter": "31.75 mm",
+    "Flutes": "0",
+    "Length": "15.16 mm",
+    "Material": "HSS",
+    "ShankDiameter": "12.70 mm",
+    "TipDiameter": "0.00 mm"
+  },
+  "attribute": {}
+}

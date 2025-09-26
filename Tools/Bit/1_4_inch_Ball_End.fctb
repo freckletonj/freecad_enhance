@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "1/4\" Ball End003",
+  "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/ballend.fcstd",
+  "parameter": {
+    "Chipload": "0.00 mm",
+    "CuttingEdgeHeight": "28.57 mm",
+    "Diameter": "6.35 mm",
+    "Flutes": "0",
+    "Length": "50.00 mm",
+    "Material": "HSS",
+    "ShankDiameter": "6.35 mm"
+  },
+  "attribute": {}
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "Surfacing Bit 1.5\"001",
+  "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/endmill.fcstd",
+  "parameter": {
+    "Chipload": "0.21 mm",
+    "CuttingEdgeHeight": "12.00 mm",
+    "Diameter": "38.10 mm",
+    "Flutes": "2",
+    "Length": "12.00 mm",
+    "Material": "HSS",
+    "ShankDiameter": "12.70 mm",
+    "SpindleDirection": "Forward"
+  },
+  "attribute": {}
+}

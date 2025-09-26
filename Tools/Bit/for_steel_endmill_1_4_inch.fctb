@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "FOR STEEL Endmill 1/4\"",
+  "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/endmill.fcstd",
+  "parameter": {
+    "Chipload": "0.00 mm",
+    "CuttingEdgeHeight": "19.05 mm",
+    "Diameter": "6.35 mm",
+    "Flutes": "4",
+    "Length": "19.05 mm",
+    "Material": "Carbide",
+    "ShankDiameter": "6.35 mm",
+    "SpindleDirection": "Forward"
+  },
+  "attribute": {}
+}

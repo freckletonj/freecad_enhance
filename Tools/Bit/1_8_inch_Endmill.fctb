@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "1/8\" Endmill003",
+  "shape": "endmill.fcstd",
+  "parameter": {
+    "Chipload": "0.07 mm",
+    "CuttingEdgeHeight": "20.62 mm",
+    "Diameter": "3.17 mm",
+    "Flutes": "2",
+    "Length": "20.62 mm",
+    "Material": "HSS",
+    "ShankDiameter": "6.35 mm",
+    "SpindleDirection": "Forward"
+  },
+  "attribute": {}
+}

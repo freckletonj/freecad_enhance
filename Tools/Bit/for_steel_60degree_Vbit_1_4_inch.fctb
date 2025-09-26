@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "FOR STEEL 60 Deg. V-Bit",
+  "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/v-bit.fcstd",
+  "parameter": {
+    "Chipload": "0.00 mm",
+    "CuttingEdgeAngle": "60.00 \u00b0",
+    "CuttingEdgeHeight": "0.01 mm",
+    "Diameter": "6.35 mm",
+    "Flutes": "4",
+    "Length": "8.35 mm",
+    "Material": "HSS",
+    "ShankDiameter": "6.36 mm",
+    "TipDiameter": "0.01 mm"
+  },
+  "attribute": {}
+}

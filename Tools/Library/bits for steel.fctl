@@ -1,0 +1,33 @@
+{
+  "tools": [
+    {
+      "nr": 1,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/for_steel_endmill_1_8_inch.fctb"
+    },
+    {
+      "nr": 2,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/for_steel_endmill_1_4_inch.fctb"
+    },
+    {
+      "nr": 3,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/for_steel_ballend_1_8_inch.fctb"
+    },
+    {
+      "nr": 4,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/for_steel_ballend_1_32_inch.fctb"
+    },
+    {
+      "nr": 5,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/for_steel_endmill_1_32_inch.fctb"
+    },
+    {
+      "nr": 6,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/for_steel_endmill_1_16_inch.fctb"
+    },
+    {
+      "nr": 7,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/for_steel_60degree_Vbit_1_4_inch.fctb"
+    }
+  ],
+  "version": 1
+}

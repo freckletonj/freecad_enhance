@@ -1,0 +1,41 @@
+{
+  "tools": [
+    {
+      "nr": 1,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/5mm_Endmill.fctb"
+    },
+    {
+      "nr": 2,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/5mm_Drill.fctb"
+    },
+    {
+      "nr": 3,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/6mm_Ball_End.fctb"
+    },
+    {
+      "nr": 4,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/6mm_Bullnose.fctb"
+    },
+    {
+      "nr": 5,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/60degree_Vbit.fctb"
+    },
+    {
+      "nr": 6,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/45degree_chamfer.fctb"
+    },
+    {
+      "nr": 7,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/slittingsaw.fctb"
+    },
+    {
+      "nr": 8,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/probe.fctb"
+    },
+    {
+      "nr": 9,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/5mm-thread-cutter.fctb"
+    }
+  ],
+  "version": 1
+}

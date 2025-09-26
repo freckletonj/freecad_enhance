@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "FOR STEEL Ballend 1/32\"004",
+  "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/ballend.fcstd",
+  "parameter": {
+    "Chipload": "0.00 mm",
+    "CuttingEdgeHeight": "1.98 mm",
+    "Diameter": "0.79 mm",
+    "Flutes": "2",
+    "Length": "1.98 mm",
+    "Material": "HSS",
+    "ShankDiameter": "3.17 mm"
+  },
+  "attribute": {}
+}

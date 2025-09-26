@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "name": "90 Deg. V-bit Profile",
+  "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/v-bit.fcstd",
+  "parameter": {
+    "Chipload": "0.00 mm",
+    "CuttingEdgeAngle": "90.00 \u00b0",
+    "CuttingEdgeHeight": "6.35 mm",
+    "Diameter": "19.05 mm",
+    "Flutes": "0",
+    "Length": "0.00 mm",
+    "Material": "HSS",
+    "ShankDiameter": "12.70 mm",
+    "TipDiameter": "0.00 mm"
+  },
+  "attribute": {}
+}

@@ -1,0 +1,61 @@
+{
+  "tools": [
+    {
+      "nr": 1,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/1_4_inch_Endmill.fctb"
+    },
+    {
+      "nr": 2,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/1_8_inch_Endmill.fctb"
+    },
+    {
+      "nr": 3,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/1_2_inch_Round_Nose_No_Edge_Blades.fctb"
+    },
+    {
+      "nr": 4,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/1_8_inch_Ball_End.fctb"
+    },
+    {
+      "nr": 5,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/25mm_Sander.fctb"
+    },
+    {
+      "nr": 6,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/1_4_inch_Ball_End.fctb"
+    },
+    {
+      "nr": 7,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/120degree_Vbit.fctb"
+    },
+    {
+      "nr": 8,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/surfacing_bit_1.5_inch.fctb"
+    },
+    {
+      "nr": 9,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/bullnose_3_4_inch.fctb"
+    },
+    {
+      "nr": 10,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/90degree_Vbit.fctb"
+    },
+    {
+      "nr": 11,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/for_steel_ballend_1_8_inch.fctb"
+    },
+    {
+      "nr": 12,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/for_steel_ballend_1_32_inch.fctb"
+    },
+    {
+      "nr": 13,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/chamfer_120degree_1_25in.fctb"
+    },
+    {
+      "nr": 14,
+      "path": "/home/person/.local/share/FreeCAD/Tools/Bit/120degree_Vbit_no_edge.fctb"
+    }
+  ],
+  "version": 1
+}

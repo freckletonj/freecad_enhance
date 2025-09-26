@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "1\" Sander002",
+  "shape": "endmill.fcstd",
+  "parameter": {
+    "Chipload": "0.00 mm",
+    "CuttingEdgeHeight": "3.00 mm",
+    "Diameter": "15.00 mm",
+    "Flutes": "0",
+    "Length": "3.00 mm",
+    "Material": "HSS",
+    "ShankDiameter": "6.35 mm",
+    "SpindleDirection": "Forward"
+  },
+  "attribute": {}
+}
