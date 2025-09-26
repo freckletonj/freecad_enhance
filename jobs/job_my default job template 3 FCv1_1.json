@@ -1,0 +1,188 @@
+{
+  "Fixtures": [
+    {
+      "G54": true
+    }
+  ],
+  "OrderOutputBy": "Fixture",
+  "Post": "KineticNCBeamicon2_MASSO",
+  "PostArgs": "",
+  "SetupSheet": {
+    "HorizRapid": "15240.00 mm/min",
+    "VertRapid": "2997.00 mm/min"
+  },
+  "SplitOutput": false,
+  "Stock": {
+    "create": "FromBase",
+    "version": 1,
+    "xneg": "0.0 mm",
+    "xpos": "0.0 mm",
+    "yneg": "0.0 mm",
+    "ypos": "0.0 mm",
+    "zneg": "0.0 mm",
+    "zpos": "0.0 mm"
+  },
+  "Tolerance": "0.01",
+  "ToolController": [
+    {
+      "dir": "Forward",
+      "hfeed": "42.333333333333336 mm/s",
+      "hrapid": "254.0 mm/s",
+      "label": "Bullnose: 3/4\"D 1/4\"R001",
+      "name": "Bullnose__3_4_D_1_4_R001",
+      "nr": 5,
+      "speed": 18000.0,
+      "tool": {
+        "attribute": {},
+        "name": "Bullnose: 3/4\"D 1/4\"R",
+        "parameter": {
+          "Chipload": "0.00 mm",
+          "CuttingEdgeHeight": "15.88 mm",
+          "Diameter": "19.05 mm",
+          "FlatRadius": "6.35 mm",
+          "Flutes": 2,
+          "Length": "50.00 mm",
+          "Material": "HSS",
+          "ShankDiameter": "12.70 mm",
+          "SpindleDirection": "Forward"
+        },
+        "shape": "bullnose.fcstd",
+        "shape-type": "Bullnose",
+        "version": 2
+      },
+      "version": 1,
+      "vfeed": "21.166666666666668 mm/s",
+      "vrapid": "49.95 mm/s",
+      "xengine": [
+        {
+          "expr": "${SetupSheet}.HorizRapid",
+          "prop": "HorizRapid"
+        },
+        {
+          "expr": "${SetupSheet}.VertRapid",
+          "prop": "VertRapid"
+        }
+      ]
+    },
+    {
+      "dir": "Forward",
+      "hfeed": "63.5 mm/s",
+      "hrapid": "254.0 mm/s",
+      "label": "Endmill: 1/4\"001",
+      "name": "Endmill__1_4_001",
+      "nr": 3,
+      "speed": 16000.0,
+      "tool": {
+        "attribute": {},
+        "name": "Endmill: 1/4\"",
+        "parameter": {
+          "Chipload": "0.00 mm",
+          "CuttingEdgeHeight": "25.40 mm",
+          "Diameter": "6.35 mm",
+          "Flutes": 2,
+          "Length": "50.00 mm",
+          "Material": "HSS",
+          "ShankDiameter": "6.35 mm",
+          "SpindleDirection": "Forward"
+        },
+        "shape": "endmill.fcstd",
+        "shape-type": "Endmill",
+        "version": 2
+      },
+      "version": 1,
+      "vfeed": "31.75 mm/s",
+      "vrapid": "49.95 mm/s",
+      "xengine": [
+        {
+          "expr": "${SetupSheet}.HorizRapid",
+          "prop": "HorizRapid"
+        },
+        {
+          "expr": "${SetupSheet}.VertRapid",
+          "prop": "VertRapid"
+        }
+      ]
+    },
+    {
+      "dir": "Forward",
+      "hfeed": "122.76666666666667 mm/s",
+      "hrapid": "254.0 mm/s",
+      "label": "Surfacing: 1.5\"001",
+      "name": "Surfacing__1_5_001",
+      "nr": 4,
+      "speed": 18000.0,
+      "tool": {
+        "attribute": {},
+        "name": "Surfacing: 1.5\"",
+        "parameter": {
+          "Chipload": "0.00 mm",
+          "CuttingEdgeHeight": "12.00 mm",
+          "Diameter": "38.10 mm",
+          "Flutes": 2,
+          "Length": "50.00 mm",
+          "Material": "HSS",
+          "ShankDiameter": "12.70 mm",
+          "SpindleDirection": "Forward"
+        },
+        "shape": "endmill.fcstd",
+        "shape-type": "Endmill",
+        "version": 2
+      },
+      "version": 1,
+      "vfeed": "61.38333333333333 mm/s",
+      "vrapid": "49.95 mm/s",
+      "xengine": [
+        {
+          "expr": "${SetupSheet}.HorizRapid",
+          "prop": "HorizRapid"
+        },
+        {
+          "expr": "${SetupSheet}.VertRapid",
+          "prop": "VertRapid"
+        }
+      ]
+    },
+    {
+      "dir": "Forward",
+      "hfeed": "36.416666666666664 mm/s",
+      "hrapid": "254.0 mm/s",
+      "label": "V-Bit: 120 deg, 1.25\" D001",
+      "name": "V_Bit__120_deg__1_25__D001",
+      "nr": 2,
+      "speed": 18000.0,
+      "tool": {
+        "attribute": {},
+        "name": "V-Bit: 120 deg, 1.25\" D",
+        "parameter": {
+          "Chipload": "0.00 mm",
+          "CuttingEdgeAngle": "120.00\u00b0",
+          "CuttingEdgeHeight": "6.00 mm",
+          "Diameter": "31.75 mm",
+          "Flutes": 2,
+          "Length": "30.00 mm",
+          "Material": "HSS",
+          "ShankDiameter": "12.70 mm",
+          "SpindleDirection": "Forward",
+          "TipDiameter": "0.01 mm"
+        },
+        "shape": "v-bit.fcstd",
+        "shape-type": "VBit",
+        "version": 2
+      },
+      "version": 1,
+      "vfeed": "12.7 mm/s",
+      "vrapid": "49.95 mm/s",
+      "xengine": [
+        {
+          "expr": "${SetupSheet}.HorizRapid",
+          "prop": "HorizRapid"
+        },
+        {
+          "expr": "${SetupSheet}.VertRapid",
+          "prop": "VertRapid"
+        }
+      ]
+    }
+  ],
+  "Version": 1
+}

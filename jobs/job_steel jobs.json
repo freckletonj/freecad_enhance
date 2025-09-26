@@ -1,0 +1,220 @@
+{
+  "Fixtures": [
+    {
+      "G54": true
+    }
+  ],
+  "OrderOutputBy": "Fixture",
+  "Post": "KineticNCBeamicon2_MASSO",
+  "PostArgs": "",
+  "SetupSheet": {
+    "FinalDepthExpression": "OpFinalDepth",
+    "HorizRapid": "15240.00 mm/min",
+    "StartDepthExpression": "OpStartDepth",
+    "StepDownExpression": "OpToolDiameter/2",
+    "VertRapid": "2997.20 mm/min"
+  },
+  "SplitOutput": false,
+  "Stock": {
+    "create": "FromBase",
+    "version": 1,
+    "xneg": "0.0 mm",
+    "xpos": "0.0 mm",
+    "yneg": "0.0 mm",
+    "ypos": "0.0 mm",
+    "zneg": "0.0 mm",
+    "zpos": "0.0 mm"
+  },
+  "Tolerance": "0.01",
+  "ToolController": [
+    {
+      "dir": "Forward",
+      "hfeed": "1.6933333333333331 mm/s",
+      "hrapid": "254.0 mm/s",
+      "label": "FOR STEEL Ballend 1/32\"002",
+      "name": "FOR_STEEL_Ballend_1_32_001",
+      "nr": 12,
+      "speed": 12000.0,
+      "tool": {
+        "attribute": {},
+        "name": "FOR STEEL Ballend 1/32\"003",
+        "parameter": {
+          "Chipload": "0.00 mm",
+          "CuttingEdgeHeight": "1.98 mm",
+          "Diameter": "0.79 mm",
+          "Flutes": "2",
+          "Length": "1.98 mm",
+          "Material": "HSS",
+          "ShankDiameter": "3.17 mm"
+        },
+        "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/ballend.fcstd",
+        "version": 2
+      },
+      "version": 1,
+      "vfeed": "0.05 mm/s",
+      "vrapid": "49.95333333333333 mm/s",
+      "xengine": [
+        {
+          "expr": "${SetupSheet}.HorizRapid",
+          "prop": "HorizRapid"
+        },
+        {
+          "expr": "${SetupSheet}.VertRapid",
+          "prop": "VertRapid"
+        }
+      ]
+    },
+    {
+      "dir": "Forward",
+      "hfeed": "8.466666666666667 mm/s",
+      "hrapid": "254.0 mm/s",
+      "label": "FOR STEEL Ballend 1/8\"002",
+      "name": "FOR_STEEL_Ballend_1_8_001",
+      "nr": 11,
+      "speed": 12000.0,
+      "tool": {
+        "attribute": {},
+        "name": "FOR STEEL Ballend 1/8\"003",
+        "parameter": {
+          "Chipload": "0.01 mm",
+          "CuttingEdgeHeight": "12.70 mm",
+          "Diameter": "3.17 mm",
+          "Flutes": "2",
+          "Length": "12.70 mm",
+          "Material": "HSS",
+          "ShankDiameter": "3.17 mm"
+        },
+        "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/ballend.fcstd",
+        "version": 2
+      },
+      "version": 1,
+      "vfeed": "0.1666666666666667 mm/s",
+      "vrapid": "49.95333333333333 mm/s",
+      "xengine": [
+        {
+          "expr": "${SetupSheet}.HorizRapid",
+          "prop": "HorizRapid"
+        },
+        {
+          "expr": "${SetupSheet}.VertRapid",
+          "prop": "VertRapid"
+        }
+      ]
+    },
+    {
+      "dir": "Forward",
+      "hfeed": "1.6933333333333331 mm/s",
+      "hrapid": "0.0 mm/s",
+      "label": "FOR STEEL Endmill 1/32\"001",
+      "name": "FOR_STEEL_Endmill_1_32_",
+      "nr": 5,
+      "speed": 12000.0,
+      "tool": {
+        "attribute": {},
+        "name": "FOR STEEL Endmill 1/32\"",
+        "parameter": {
+          "Chipload": "0.00 mm",
+          "CuttingEdgeHeight": "1.98 mm",
+          "Diameter": "0.79 mm",
+          "Flutes": "2",
+          "Length": "1.98 mm",
+          "Material": "Carbide",
+          "ShankDiameter": "3.17 mm",
+          "SpindleDirection": "Forward"
+        },
+        "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/endmill.fcstd",
+        "version": 2
+      },
+      "version": 1,
+      "vfeed": "0.05 mm/s",
+      "vrapid": "0.0 mm/s",
+      "xengine": [
+        {
+          "expr": "${SetupSheet}.HorizRapid",
+          "prop": "HorizRapid"
+        },
+        {
+          "expr": "${SetupSheet}.VertRapid",
+          "prop": "VertRapid"
+        }
+      ]
+    },
+    {
+      "dir": "Forward",
+      "hfeed": "9.059333333333333 mm/s",
+      "hrapid": "254.0 mm/s",
+      "label": "FOR STEEL Endmill 1/4\"001",
+      "name": "FOR_STEEL_Endmill_1_4_",
+      "nr": 2,
+      "speed": 6677.0,
+      "tool": {
+        "attribute": {},
+        "name": "FOR STEEL Endmill 1/4\"",
+        "parameter": {
+          "Chipload": "0.00 mm",
+          "CuttingEdgeHeight": "19.05 mm",
+          "Diameter": "6.35 mm",
+          "Flutes": "4",
+          "Length": "19.05 mm",
+          "Material": "Carbide",
+          "ShankDiameter": "6.35 mm",
+          "SpindleDirection": "Forward"
+        },
+        "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/endmill.fcstd",
+        "version": 2
+      },
+      "version": 1,
+      "vfeed": "0.4529666666666667 mm/s",
+      "vrapid": "49.95333333333333 mm/s",
+      "xengine": [
+        {
+          "expr": "${SetupSheet}.HorizRapid",
+          "prop": "HorizRapid"
+        },
+        {
+          "expr": "${SetupSheet}.VertRapid",
+          "prop": "VertRapid"
+        }
+      ]
+    },
+    {
+      "dir": "Forward",
+      "hfeed": "6.7733333333333325 mm/s",
+      "hrapid": "0.0 mm/s",
+      "label": "FOR STEEL Endmill 1/8\"001",
+      "name": "FOR_STEEL_Endmill_1_8_",
+      "nr": 1,
+      "speed": 13355.0,
+      "tool": {
+        "attribute": {},
+        "name": "FOR STEEL Endmill 1/8\"",
+        "parameter": {
+          "Chipload": "0.00 mm",
+          "CuttingEdgeHeight": "9.52 mm",
+          "Diameter": "3.17 mm",
+          "Flutes": "4",
+          "Length": "9.52 mm",
+          "Material": "Carbide",
+          "ShankDiameter": "3.17 mm",
+          "SpindleDirection": "Forward"
+        },
+        "shape": "/home/person/.local/share/FreeCAD/Tools/Shape/endmill.fcstd",
+        "version": 2
+      },
+      "version": 1,
+      "vfeed": "0.33866666666666667 mm/s",
+      "vrapid": "0.0 mm/s",
+      "xengine": [
+        {
+          "expr": "${SetupSheet}.HorizRapid",
+          "prop": "HorizRapid"
+        },
+        {
+          "expr": "${SetupSheet}.VertRapid",
+          "prop": "VertRapid"
+        }
+      ]
+    }
+  ],
+  "Version": 1
+}
